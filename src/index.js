@@ -6,7 +6,10 @@ const boomErrorHandler = require('./middlewares/error.handler');
 function app() {
   const app = express();
   const port = process.env.PORT || 3000;
-  const whitelist = ['https://bsaletest-client.netlify.app/'];
+  const whitelist = [
+    'https://bsaletest-client.netlify.app/',
+    'http://localhost:5500/',
+  ];
   const options = {
     origin: (origin, callback) => {
       if (whitelist.includes(origin) || !origin) {
