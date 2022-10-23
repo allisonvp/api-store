@@ -1,5 +1,4 @@
 const express = require('express');
-const morgan = require('morgan');
 const cors = require('cors');
 const routerApi = require('./routes');
 const boomErrorHandler = require('./middlewares/error.handler');
@@ -23,7 +22,6 @@ function app() {
 
   //Middlewares
   app.use(cors(options));
-  app.use(morgan('dev'));
   app.use(boomErrorHandler);
 
   //Routes
