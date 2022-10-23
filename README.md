@@ -12,14 +12,13 @@ You can see the documentation and run it in Postman.
 
 ## Built with
 
-<img src="https://skillicons.dev/icons?i=nodejs" /> [Node.js](https://nodejs.org/en/)  - JavaScript environment </br>
-
-<img src="https://skillicons.dev/icons?i=expressjs" /> [Express](https://expressjs.com/) - The web framework used </br>
-
-<img src="https://skillicons.dev/icons?i=heroku" /> [Heroku](https://heroku.com/) - Cloud Application Platform for deploy </br>
-
-<img src="https://skillicons.dev/icons?i=mysql" /> [MySQL](https://mysql.com/) - Relational database </br>
-
+|           |          |
+| :-------- | :------- |
+|<img src="https://skillicons.dev/icons?i=nodejs" /> | [Node.js](https://nodejs.org/en/)  - JavaScript environment |
+|<img src="https://skillicons.dev/icons?i=expressjs" /> | [Express](https://expressjs.com/) - The web framework used |
+|<img src="https://skillicons.dev/icons?i=heroku" /> | [Heroku](https://heroku.com/) - Cloud Application Platform for deploy |
+|<img src="https://skillicons.dev/icons?i=mysql" /> | [MySQL](https://mysql.com/) - Relational database |
+|           |          |
 
 ## API Reference
 
