@@ -20,7 +20,7 @@ You can see the documentation and run it in Postman.
 
 #### Get all items
 
-```http
+```
   GET https://api-bsaletest.herokuapp.com/api/products?ordering=desc&category=5
 ```
 
@@ -34,7 +34,7 @@ List products. You can use query params to filter them by category, ordering and
 
 #### Get item
 
-```http
+```
   GET https://api-bsaletest.herokuapp.com/api/categories
 ```
 
