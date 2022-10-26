@@ -1,10 +1,11 @@
 const express = require('express');
 const cors = require('cors');
 const routerApi = require('./routes');
-const boomErrorHandler = require('./middlewares/error.handler');
 
 function app() {
   const app = express();
+
+  //Port in heroku or port 3000 locally
   const port = process.env.PORT || 3000;
 
   //Settings
@@ -12,7 +13,6 @@ function app() {
 
   //Middlewares
   app.use(cors());
-  app.use(boomErrorHandler);
 
   //Routes
   routerApi(app);

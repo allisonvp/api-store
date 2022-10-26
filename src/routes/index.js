@@ -5,8 +5,13 @@ const categoriesRouter = require('./categories.router');
 
 function routerApi(app) {
   const router = Router();
+
   app.use('/api', router);
-  router.use('/products', productsRouter);
-  router.use('/categories', categoriesRouter);
+
+  //routes for products:
+  router.use('/products', productsRouter); ///api/products
+
+  //routes for categories:
+  router.use('/categories', categoriesRouter); ///api/categories
 }
 module.exports = routerApi;

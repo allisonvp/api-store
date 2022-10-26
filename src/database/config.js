@@ -1,7 +1,9 @@
 const { config } = require('dotenv');
 
+//config read the environment variables from the .env file and assign it to process.env
 config();
 
+//Database credentials that will be the argument of the knex function.
 const dbCredentials = {
   client: 'mysql',
   connection: {
@@ -10,7 +12,6 @@ const dbCredentials = {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
   },
-  acquireConnectionTimeout: 10000,
 };
 
 module.exports = dbCredentials;
