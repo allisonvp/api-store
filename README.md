@@ -22,7 +22,7 @@ You can see the documentation and run it in Postman.
 
 ## API Reference
 
-#### Get all items
+#### Get products
 
 ```
   GET https://api-bsaletest.herokuapp.com/api/products?ordering=desc&category=5
@@ -36,7 +36,7 @@ You can see the documentation and run it in Postman.
 
 List products. You can use query params to filter them by category, ordering and search.
 
-#### Get item
+#### Get categories
 
 ```
   GET https://api-bsaletest.herokuapp.com/api/categories
@@ -44,6 +44,41 @@ List products. You can use query params to filter them by category, ordering and
 
 List categories.
 
+## Run Locally
+
+Click on Code
+
+<img src="https://docs.github.com/assets/cb-20363/images/help/repository/code-button.png" width=400/>
+
+Copy the repository URL.
+
+<img src="https://docs.github.com/assets/cb-33207/images/help/repository/https-url-clone-cli.png" width=400/>
+
+Open Git Bash and change the current working directory to the location where you want to clone the project.
+
+```bash
+  git clone https://github.com/allisonvp/api-bsale-test.git
+```
+
+Go to the project directory
+
+```bash
+  cd api-bsale-test/
+```
+
+Open the project and create the .env file. You will need to add the following [environment variables](https://github.com/allisonvp/api-bsale-test#environment-variables) to your .env file. 
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 ## Environment Variables
 
