@@ -3,11 +3,11 @@
 
 RESTful Web API with Node.js 16 connected to a MySQL database and deployed in Heroku.
 
-## Documentation
+## API Documentation
 
 You can see the documentation and run it in Postman.
 
-[Documentation](https://documenter.getpostman.com/view/11816456/2s84DstgJA)
+[API Documentation](https://documenter.getpostman.com/view/11816456/2s84DstgJA)
 
 
 ## Built with
@@ -79,6 +79,10 @@ Start the server
 ```bash
   npm run start
 ```
+
+Open a web browser and access to the localhost API endpoint with the port 3000: ```http://localhost:3000/api/products```.
+Go to the [API documentation](https://documenter.getpostman.com/view/11816456/2s84DstgJA) to see the other endpoints.
+
 
 ## Environment Variables
 
