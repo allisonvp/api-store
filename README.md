@@ -61,7 +61,7 @@ Open Git Bash and change the current working directory to the location where you
 Go to the project directory
 
 ```bash
-  cd api-bsale-test/
+  cd api-store/
 ```
 
 Open the project and create the .env file. You will need to add the following [environment variables](https://github.com/allisonvp/api-bsale-test#environment-variables) to your .env file. 
