@@ -7,12 +7,6 @@ It is requested to build separately Backend (REST API) and [Frontend](https://gi
 
 The REST API was developed with Node.js and Express. The REST API connects and makes SQL queries to a MySQL database deployed in AWS RDS. This database has two tables: products and categories. To request the data, the REST API was developed with the following endpoints that you can see at the [API Documentation](https://github.com/allisonvp/bsale-test-client).
 
-## API Documentation
-
-You can see the documentation and run it in Postman.
-
-[API Documentation](https://documenter.getpostman.com/view/11816456/2s84DstgJA)
-
 
 ## Built with
 
@@ -24,7 +18,7 @@ You can see the documentation and run it in Postman.
 |<img src="https://skillicons.dev/icons?i=mysql" /> | [MySQL](https://mysql.com/) - Relational database |
 |           |          |
 
-## API Reference
+## API Documentation
 
 #### Get products
 
