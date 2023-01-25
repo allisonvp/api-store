@@ -79,7 +79,6 @@ Start the server
 ```
 
 Open a web browser and access to the localhost API endpoint with the port 3000: ```http://localhost:3000/api/products```.
-Go to the [API documentation](https://documenter.getpostman.com/view/11816456/2s84DstgJA) to see the other endpoints.
 
 
 ## Environment Variables
