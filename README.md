@@ -5,7 +5,7 @@ This project consists of building an online store, where the user can initially 
 
 It is requested to build separately Backend (REST API) and [Frontend](https://github.com/allisonvp/bsale-test-client) (application that consumes it).
 
-The REST API was developed with Node.js and Express. The REST API connects and makes SQL queries to a MySQL database deployed in AWS RDS. This database has two tables: products and categories. To request the data, the REST API was developed with the following endpoints that you can see at the [API Documentation](https://github.com/allisonvp/bsale-test-client).
+The REST API was developed with Node.js and Express. The REST API connects and makes SQL queries to a MySQL database deployed in AWS RDS. This database has two tables: products and categories. To request the data, the REST API was developed with the following endpoints that you can see at the [API Documentation](https://github.com/allisonvp/api-store#api-documentation).
 
 
 ## Built with
