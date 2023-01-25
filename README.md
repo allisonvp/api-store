@@ -29,7 +29,7 @@ You can see the documentation and run it in Postman.
 #### Get products
 
 ```
-  GET https://api-bsaletest.herokuapp.com/api/products?ordering=desc&category=5
+  GET https://api-store-seven.vercel.app/api/products?ordering=desc&category=5
 ```
 
 | Params | Type     | Description                |
@@ -43,7 +43,7 @@ List products. You can use query params to filter them by category, ordering and
 #### Get categories
 
 ```
-  GET https://api-bsaletest.herokuapp.com/api/categories
+  GET https://api-store-seven.vercel.app/api/categories
 ```
 
 List categories.
