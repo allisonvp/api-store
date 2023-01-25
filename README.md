@@ -1,7 +1,11 @@
 
-# Bsale Store RESTful API with Node.js
+# Store RESTful API with Node.js and Express
 
-RESTful Web API with Node.js 16 connected to a MySQL database and deployed in Heroku.
+This project consists of building an online store, where the user can initially see all the products, can search for them, sort them in ascending or descending order and can also filter the products by category. In addition, the user can see the products with the discount applied in case they have a discount.
+
+It is requested to build separately Backend (REST API) and [Frontend](https://github.com/allisonvp/bsale-test-client) (application that consumes it).
+
+The REST API was developed with Node.js and Express. The REST API connects and makes SQL queries to a MySQL database deployed in AWS RDS. This database has two tables: products and categories. To request the data, the REST API was developed with the following endpoints that you can see at the [API Documentation](https://github.com/allisonvp/bsale-test-client).
 
 ## API Documentation
 
