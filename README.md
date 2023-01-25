@@ -55,7 +55,7 @@ Copy the repository URL.
 Open Git Bash and change the current working directory to the location where you want to clone the project.
 
 ```bash
-  git clone https://github.com/allisonvp/api-bsale-test.git
+  git clone https://github.com/allisonvp/api-store.git
 ```
 
 Go to the project directory
