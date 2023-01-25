@@ -1,5 +1,5 @@
 
-# Store RESTful API with Node.js and Express
+# Store REST API with Node.js and Express
 
 This project consists of building an online store, where the user can initially see all the products, can search for them, sort them in ascending or descending order and can also filter the products by category. In addition, the user can see the products with the discount applied in case they have a discount.
 
